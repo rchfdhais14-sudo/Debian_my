@@ -1,0 +1,50 @@
+{
+  "image_ref": "debian",
+  "arch": "aarch64",
+  "manifest": {
+    "schemaVersion": 2,
+    "mediaType": "application/vnd.oci.image.manifest.v1+json",
+    "config": {
+      "mediaType": "application/vnd.oci.image.config.v1+json",
+      "digest": "sha256:cfa173d8fe873c09cc55e3961a5fe691bbd473932d293cbc804fee3b19cb527f",
+      "size": 466,
+      "data": "eyJjb25maWciOnsiRW52IjpbIlBBVEg9L3Vzci9sb2NhbC9zYmluOi91c3IvbG9jYWwvYmluOi91c3Ivc2JpbjovdXNyL2Jpbjovc2JpbjovYmluIl0sIkVudHJ5cG9pbnQiOltdLCJDbWQiOlsiYmFzaCJdfSwiY3JlYXRlZCI6IjIwMjYtMDgtMDNUMDA6MDA6MDBaIiwiaGlzdG9yeSI6W3siY3JlYXRlZCI6IjIwMjYtMDgtMDNUMDA6MDA6MDBaIiwiY3JlYXRlZF9ieSI6IiMgZGViaWFuLnNoIC0tYXJjaCAnYXJtNjQnIG91dC8gJ3RyaXhpZScgJ0AxNzg1NzE1MjAwJyIsImNvbW1lbnQiOiJkZWJ1ZXJyZW90eXBlIDAuMTcifV0sInJvb3RmcyI6eyJ0eXBlIjoibGF5ZXJzIiwiZGlmZl9pZHMiOlsic2hhMjU2OmNlZTY4NDUzOWVkNjkwY2FhZWM5MDUxYzBhNGMxNmZkMTE0MGMxMjg5ODQ2OGRkOTNlMzlkNTdiYmE3NTIwNmIiXX0sIm9zIjoibGludXgiLCJhcmNoaXRlY3R1cmUiOiJhcm02NCIsInZhcmlhbnQiOiJ2OCJ9Cg=="
+    },
+    "layers": [
+      {
+        "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+        "digest": "sha256:018e5aeb5455352b2e96f5c9cb604b5767162ec71fcd22ca9d02b088cdeaf49d",
+        "size": 49673846
+      }
+    ],
+    "_ct": "application/vnd.oci.image.manifest.v1+json"
+  },
+  "image_config": {
+    "config": {
+      "Env": [
+        "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+      ],
+      "Entrypoint": [],
+      "Cmd": [
+        "bash"
+      ]
+    },
+    "created": "2026-08-03T00:00:00Z",
+    "history": [
+      {
+        "created": "2026-08-03T00:00:00Z",
+        "created_by": "# debian.sh --arch 'arm64' out/ 'trixie' '@1785715200'",
+        "comment": "debuerreotype 0.17"
+      }
+    ],
+    "rootfs": {
+      "type": "layers",
+      "diff_ids": [
+        "sha256:cee684539ed690caaec9051c0a4c16fd1140c12898468dd93e39d57bba75206b"
+      ]
+    },
+    "os": "linux",
+    "architecture": "arm64",
+    "variant": "v8"
+  }
+}
